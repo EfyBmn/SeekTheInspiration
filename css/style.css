@@ -1,0 +1,481 @@
+    *{
+    margin:0px;
+    padding:0px;
+
+    
+}
+
+body{
+    
+    font-family:'Julius Sans One', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+   
+}
+
+p{
+    font-size:14px;
+}
+
+@font-face {
+    font-family: "Walkway";
+    src: url("../fonts/WalkwaySemiBold.ttf");
+}
+
+@font-face{
+    font-family:"WalkwayExp";
+    src:url("../fonts/WalkwayExpandSemiBold.ttf")
+}
+
+@font-face{
+    font-family:"WalkwayBold";
+    src:url("../fonts/WalkwayBold.ttf")
+}
+
+.navbar-default{
+    background-color:transparent;
+    border-color:#444
+    
+}
+
+
+.navbar-default .navbar-nav > li > a{
+    color:#b5b5b5;
+    font-size:18px;
+    font-family: "Walkwayexp", sans-serif;
+        transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+    -webkit-transition:all 1s;
+    height:60px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color:#da3948;
+    
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+    color:#B5B5B5;
+    
+}
+
+.navbar-default .navbar-nav > .active>a,
+.navbar-default .navbar-nav > .active>a:focus,
+.navbar-default .navbar-nav > .active>a:hover{
+    background-color: transparent;
+    color:#da3948;
+}
+
+
+.section-title{
+    padding-top:90px;
+    padding-bottom: 80px;
+}
+.section-title h2{
+    color:#2F3952;
+    font-size:35px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'WalkwayExp',sans-serif;
+}
+
+.section-title p{
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+    color:#da3948;
+    font-weight: 500;
+    font-size:18px;
+    font-style: italic;
+    
+    
+    
+}
+
+.section-title h2:after{
+    content:"";
+    position: absolute;
+    top:150px;
+    margin-top:4px;
+    left:50%;
+    width:80px;
+    height:1px;
+    background-color:#8cbdba;
+    margin-left:-40px;
+    
+    
+    
+} 
+
+
+
+/*HEADER*/
+
+header{
+    background-image: url("../images/above-adventure-aerial-air.jpg");
+/*    background-attachment:local;*/
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:cover;
+    height: auto;
+    
+}
+
+
+
+.header-overlay{
+    background-color:rgba(31,31,31, 0.3);
+    height:603px;
+}
+
+
+.header-text{
+    margin-top:40%;
+}
+.header-text h1{
+    color:#fff;
+    font-size:35px;
+    font-weight: 100;
+    line-height: 45px;
+    font-family: 'WalkwayExp',sans-serif;
+   
+    
+    
+
+}
+
+.btn-join,.btn-join:active,.btn-join:focus,.btn-join:visited{
+    
+    border: 2px solid rgba(30,104,141,0.7);
+/*
+    margin-left: 15px;
+    margin-right: 15px;
+*/
+    color: rgba(255,255,255,0.5);
+    margin-top: 100px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    font-family: 'WalkwayBold', sans-serif;
+    display: block;
+    position: relative;
+    bottom:10px;
+    max-width: 400px
+    
+    
+}
+
+.btn-join:hover{
+    
+        background-color: rgba(255,255,255,0.5);
+    color: #1E688D;
+    font-family: 'WalkwayExp',sans-serif;
+}
+
+.btn-download,.btn-download:active,.btn-download:focus,.btn-active:visited{
+    
+    margin-top: 50px;
+    color: rgba(255,255,255,0.5);
+    font-family: 'WalkwayBold', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    padding-top: 10px;
+    display:block;
+        position: relative;
+    bottom:180px;
+    max-width: 400px;
+/*
+     margin-left: 15px;
+    margin-right: 15px;
+*/
+    
+    
+}
+
+.btn-download:hover {
+    color: #da3948;
+    font-weight: 900;
+    font-family: 'WalkwayExp',sans-serif;
+    
+}
+
+
+
+
+.column {
+    text-align: center;
+    color: #DA3948;
+    font-size: 60px;
+    padding-left:10px;
+    margin-bottom:80px;
+   
+    
+    
+}
+
+
+
+
+.column-text h2 {
+    color: #2F3952;
+    font-family: 'WalkwayExp', sans-serif;
+    
+}
+
+.column-text p {
+    font-family: "Raleway", sans-serif;
+    color: #1E688D;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/*SLIDER*/
+
+.slider{
+    background-image: url("../images/slider1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:100px;
+/*    margin-bottom:50px;*/
+
+    
+}
+
+.slider-overlay{
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+
+
+.slider-caption{
+    position:relative;
+    margin-top:-100px;
+    
+    
+}
+
+
+#carousel-slider{
+/*  border:3px solid #1E688D; */
+    margin-top:-50px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 1px 30px 0 rgba(0, 0, 0, 0.5);
+  
+}
+
+.slider-caption h2{
+
+    background-color:rgba(255,255,255,0.5);
+    width:100%;
+    font-family: 'Walkwaybold', sans-serif;
+/*    padding-top:10px;*/
+    margin-bottom:40px;
+    color:#2F3952;
+    font-size:40px
+}
+
+.carousel-indicators  {
+    position:absolute;
+    top:20px;
+   
+}
+
+.your{
+    font-style: italic;
+}
+
+
+
+/*DOWNLOAD BROCHURE*/
+
+.download-brochure{
+    background-color:#1a1a1a;
+    margin-top:-25px;
+    position:relative;
+/*    border-top:3px solid #1E688D;*/
+
+}
+
+.download-title{
+    padding-top: 60px;
+}
+
+.download-title h2{
+    color:#fff;
+    font-size:30px;
+    font-family: 'WalkwayExp',sans-serif;
+}
+
+.download-title p{
+    color:#1E688D;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+}
+
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.download-format{
+    text-align:center;
+/*    border-left:1px solid #1E688D;*/
+    min-height:200px;
+    padding-bottom:20px;
+    position:relative;
+     transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+    -webkit-transition:all 1s;
+    
+}
+
+.download-format:hover{
+    background-color:#121212;
+}
+
+.download-format i{
+    color:#DA3948;
+    text-align:center;
+    opacity:1;
+    font-size:40px;
+    padding-top:80px;
+    transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+    -webkit-transition:all 1s;
+}
+
+.download-format:hover i{
+    opacity:0;
+}
+
+.download-format-inner{
+    position:absolute;
+    bottom:70px;
+    width:100%;
+    opacity:0;
+    transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+    -webkit-transition:all 1s;
+}
+
+.download-format-inner h2{
+    text-align:center;
+    font-weight:300;
+    color:#d7dadb;
+    font-size:30px;
+}
+
+.download-format:hover div.download-format-inner {opacity:1;}
+
+
+/*CONTACT US*/
+
+.contact-us-form .form-control{
+    display:block;
+    width:100%;
+   height:50px;
+    padding:8px 20px;
+    font-size:16px;
+    line-height: 23px;
+    color:#1E688D;
+    font-family: 'Walkway', sans-serif;
+    background-color: transparent;
+    border:1.5px solid #1E688D;
+    border-radius:3px;
+    margin-bottom:15px;
+    opacity:0.8;
+    outline:0px !important;
+    transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+    -webkit-transition:all 1s;
+    
+    
+}
+
+#message{
+    height:115px;
+    resize:none;
+}
+
+
+
+.submit-btn, .submit-btn:active, .submit-btn:focus,.submit-btn:active {
+    width:100%;
+    border:1.5px solid #1E688D;
+    background-color:transparent;
+    border-radius:4px;
+    height:50px;
+    font-size:20px;
+    color:#1E688D;
+    outline: 0 !important;
+    transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+    -webkit-transition:all 1s;
+    
+}
+
+.submit-btn:hover{
+    font-family:"WalkwayExp",sans-serif;
+    border-color:#1E688D;
+    background-color:#1E688D;
+    color:#fff
+}
+
+.footer{
+    margin-top:80px;
+    height:150px;
+    background-color:#1a1a1a;
+    
+}
+
+.footer p{
+    color:#1E688D;
+    font-size:20px;
+    font-family: "WalkwayExp",sans-serif;
+    margin-top:60px
+    
+}
+
+.copy{
+color:#d7dadb
+}
+
+.scroll-to-top a{
+     margin-top:55px;
+    font-size:40px;
+    float:right;
+    color:#DA3948;
+    transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    
+}
+
+.scroll-to-top a:hover{
+    color:rgba(218, 57, 72, 0.7)
+}
